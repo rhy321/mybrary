@@ -46,5 +46,4 @@ bookSchema.virtual('coverImgPath').get(function(){
   }
 })
 
-//'Author' table in our db
 module.exports = mongoose.model('Book', bookSchema)
