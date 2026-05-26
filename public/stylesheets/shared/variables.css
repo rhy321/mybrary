@@ -2,6 +2,7 @@
   --color-base-hue: 620;
   --color-danger-hue-offset: 310;
   --color-danger-hue: calc(var(--color-base-hue) - var(--color-danger-hue-offset));
+  --form-input-border-color-light: hsl(var(--color-base-hue), 100%, 80%);
 
 
   --color-background-dark: hsl(var(--color-base-hue), 100%, 8%);
@@ -27,4 +28,9 @@
 
   --color-btn-primary-text-dark: hsl(var(--color-base-hue), 100%, 30%);
   --color-btn-danger-text-dark: hsl(var(--color-danger-hue), 100%, 30%);
+
+  /* form */
+  --form-label-font-size: 1.2rem;
+  --form-input-bg-color: hsl(var(--color-base-hue), 100%, 25%);
+  --form-input-border-color: hsl(var(--color-base-hue), 100%, 50%);
 }
