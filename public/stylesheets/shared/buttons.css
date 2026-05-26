@@ -1,0 +1,44 @@
+.btn {
+  border: 1px solid var(--color-btn-border);
+  border-radius: .5rem;
+  padding: .5rem 1rem;
+  font-size: 1.2rem;
+  /* by default, font family in buttons isn't equal to that of root */
+  font-family: 'Gotham Rounded';
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn-primary{
+  color: var(--color-btn-primary-text);
+  background-color: var(--color-btn-primary-bg);
+}
+
+.btn-primary:hover {
+  color: var(--color-btn-primary-text-dark);
+  background-color: var(--color-btn-primary-bg-dark);
+}
+
+.btn-danger{
+  color: var(--color-btn-danger-text);
+  background-color: var(--color-btn-danger-bg);
+}
+
+.btn-danger:hover{
+  color: var(--color-btn-danger-text-dark);
+  background-color: var(--color-btn-danger-bg-dark);
+}
+
+.btn-row{
+  display: flex;
+  align-items: flex-start;
+}
+
+.btn-row > * {
+  margin-left: 1rem;
+}
+
+.btn-row > *:first-child {
+  margin-left: 0;
+}

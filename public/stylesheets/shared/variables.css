@@ -1,0 +1,30 @@
+:root {
+  --color-base-hue: 620;
+  --color-danger-hue-offset: 310;
+  --color-danger-hue: calc(var(--color-base-hue) - var(--color-danger-hue-offset));
+
+
+  --color-background-dark: hsl(var(--color-base-hue), 100%, 8%);
+  --color-background-light: hsl(var(--color-base-hue), 100%, 16%);
+  --color-text-light: hsl(var(--color-base-hue), 100%, 87%);
+
+  /* navbar */
+
+  --nav-title-font-size: 3rem;
+  --nav-title-font-weight: bold;
+  --nav-link-font-weight: 300;
+
+  /* buttons */
+
+  --color-btn-primary-text: hsl(var(--color-base-hue), 100%, 20%);
+  --color-btn-primary-bg: hsl(var(--color-base-hue), 100%, 83%);
+  --color-btn-danger-text: hsl(var(--color-danger-hue), 100%, 20%);
+  --color-btn-danger-bg: hsl(var(--color-danger-hue), 100%, 83%);
+  --color-btn-border: rgb(255, 255, 255);
+
+  --color-btn-primary-bg-dark: hsl(var(--color-base-hue), 100%, 73%);
+  --color-btn-danger-bg-dark: hsl(var(--color-danger-hue), 100%, 73%);
+
+  --color-btn-primary-text-dark: hsl(var(--color-base-hue), 100%, 30%);
+  --color-btn-danger-text-dark: hsl(var(--color-danger-hue), 100%, 30%);
+}
