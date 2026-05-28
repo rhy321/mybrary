@@ -33,4 +33,10 @@
   --form-label-font-size: 1.2rem;
   --form-input-bg-color: hsl(var(--color-base-hue), 100%, 25%);
   --form-input-border-color: hsl(var(--color-base-hue), 100%, 50%);
+
+
+  /* books */
+  --book-cover-width: 200px;
+  --book-cover-width-large: 325px;
+  --book-cover-aspect-ratio: 0.75;
 }
